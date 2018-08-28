@@ -621,7 +621,7 @@ REDIRECTIONS = []
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {
     'default': [
-        "rsync -av --delete output/ uconn:public_html/me2233",
+        "rsync -avzP --checksum --delete output/ uconn:public_html/me2233",
     ]
 }
 
