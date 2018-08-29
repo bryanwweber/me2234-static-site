@@ -5,3 +5,8 @@ __pycache__/
 .DS_Store
 state_data.json
 .build.db.*
+
+# Ignore frequently changing content
+files/homework/
+files/slides/
+files/syllabus/
