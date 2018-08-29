@@ -4,7 +4,7 @@ slug: syllabus
 hidetitle: true
 ---
 
-# Syllabus (Updated Aug. 27, 2018)
+# Syllabus (Updated Aug. 29, 2018)
 
 <object data="/syllabus/syllabus.pdf" type="application/pdf" width="750px" height="600px">
     <embed src="/syllabus/syllabus.pdf" type="application/pdf">
