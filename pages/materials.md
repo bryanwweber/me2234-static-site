@@ -4,6 +4,10 @@ slug: materials
 hidetitle: true
 ---
 
+# In-Class Examples
+
+- Unit Conversions [ipynb](/course-materials/unit-conversions.zip) | [Solution PDF](/course-materials/unit-conversions-soln.pdf) | [Solution ipynb](/course-materials/unit-conversions-soln.zip)
+
 # Other Course Materials
 
 - [Powers Lecture Notes on Thermodynamics](/course-materials/notes.pdf)
