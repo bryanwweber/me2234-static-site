@@ -1,0 +1,8 @@
+[Core]
+Name = copy_handouts
+Module = copy_handouts
+
+[Documentation]
+Author = Bryan Weber
+Version = 0.1
+Description = Copy handouts from Dropbox to site
