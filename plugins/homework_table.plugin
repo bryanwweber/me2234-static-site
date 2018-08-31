@@ -1,0 +1,8 @@
+[Core]
+Name = homework_table
+Module = homework_table
+
+[Documentation]
+Author = Bryan Weber
+Version = 0.1
+Description = Format homework page
