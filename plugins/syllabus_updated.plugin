@@ -1,0 +1,8 @@
+[Core]
+Name = syllabus_updated
+Module = syllabus_updated
+
+[Documentation]
+Author = Bryan Weber
+Version = 0.1
+Description = Determine the date the syllabus was updated and provide a shortcode
