@@ -1,11 +1,8 @@
 from datetime import datetime, timedelta
 
-from nikola.plugin_categories import Task, ShortcodePlugin
-from nikola import utils
+from nikola.plugin_categories import ShortcodePlugin
 from lxml import etree
 from lxml.html import tostring
-
-import yaml
 
 
 class HomeworkTableShortcode(ShortcodePlugin):
@@ -13,8 +10,7 @@ class HomeworkTableShortcode(ShortcodePlugin):
     name = 'homework_table'
 
     def handler(self, site=None, data=None, lang=None, post=None):
-        with open('class_config.yaml', 'r') as conf_file:
-            class_config = yaml.load(conf_file)
+        class_config = self.site.GLOBAL_CONTEXT['data']['class_config']
 
         table = etree.Element('table', attrib={'class': 'table table-striped'})
         thead = etree.SubElement(table, 'thead')
@@ -64,4 +60,4 @@ class HomeworkTableShortcode(ShortcodePlugin):
                 a = etree.SubElement(td, 'a', href=folder + '-soln.zip')
                 a.text = 'ipynb'
 
-        return tostring(table).decode('utf-8'), ['class_config.yaml']
+        return tostring(table).decode('utf-8'), ['data/class_config.yaml']

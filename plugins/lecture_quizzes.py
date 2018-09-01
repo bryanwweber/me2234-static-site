@@ -4,16 +4,13 @@ from nikola.plugin_categories import ShortcodePlugin
 from lxml import etree
 from lxml.html import tostring
 
-import yaml
-
 
 class QuizTableShortcode(ShortcodePlugin):
 
     name = 'quiz_table'
 
     def handler(self, site=None, data=None, lang=None, post=None):
-        with open('class_config.yaml', 'r') as conf_file:
-            class_config = yaml.load(conf_file)
+        class_config = self.site.GLOBAL_CONTEXT['data']['class_config']
 
         table = etree.Element('table', attrib={'class': 'table table-striped'})
         thead = etree.SubElement(table, 'thead')
@@ -50,4 +47,4 @@ class QuizTableShortcode(ShortcodePlugin):
             else:
                 td.text = 'N/A'
 
-        return tostring(table).decode('utf-8'), ['class_config.yaml']
+        return tostring(table).decode('utf-8'), ['data/class_config.yaml']
