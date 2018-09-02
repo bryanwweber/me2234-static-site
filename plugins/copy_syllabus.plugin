@@ -1,8 +1,0 @@
-[Core]
-Name = copy_syllabus
-Module = copy_syllabus
-
-[Documentation]
-Author = Bryan Weber
-Version = 0.1
-Description = Copy syllabus from Dropbox to site

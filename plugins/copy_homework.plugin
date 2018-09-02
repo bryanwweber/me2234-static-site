@@ -1,8 +1,0 @@
-[Core]
-Name = copy_homework
-Module = copy_homework
-
-[Documentation]
-Author = Bryan Weber
-Version = 0.1
-Description = Copy homework from Dropbox to site
