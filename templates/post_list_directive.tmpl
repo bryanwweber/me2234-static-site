@@ -1,0 +1,15 @@
+{#  -*- coding: utf-8 -*- #}
+{% block content %}
+<!-- Begin post-list {{ post_list_id }} Edited by me -->
+<div id="{{ post_list_id }}" class="post-list">
+    {% if posts %}
+      {% for post in posts %}
+        <hr />
+        <h3>{{ post.title(lang)|e }}</h3>
+        <i>{{ post.formatted_date(date_format)|e }}</i>
+        {{ post.text() }}
+      {% endfor %}
+    {% endif %}
+</div>
+<!-- End post-list {{ post_list_id }} -->
+{% endblock %}
