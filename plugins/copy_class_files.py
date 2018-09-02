@@ -70,3 +70,14 @@ class CopyClassFiles(Task):
                     'uptodate': [utils.config_changed(kw, self.name)],
                 }, filters)
 
+        for item in kw['course-material']:
+            src = kw['root']/item['source']
+            dest = kw['output_folder']/'course-materials'/item.get(dest, item['source'])
+            yield utils.apply_filters({
+                'basename': self.name,
+                'name': str(dest),
+                'file_dep': [src],
+                'targets': [dest],
+                'actions': [(utils.copy_file, (src, dest))],
+                'uptodate': [utils.config_changed(kw, self.name)],
+            }, filters)
