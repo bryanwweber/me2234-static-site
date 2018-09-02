@@ -1273,7 +1273,7 @@ SHOW_SOURCELINK = False
 # USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
-DISABLED_PLUGINS = ["render_galleries", "robots"]
+DISABLED_PLUGINS = ["render_galleries", "robots", "render_taxonomies", "render_listings"]
 
 # Special settings to disable only parts of the indexes plugin.
 # Use with care.
