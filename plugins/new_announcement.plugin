@@ -1,0 +1,8 @@
+[Core]
+Name = new_announcement
+Module = new_announcement
+
+[Documentation]
+Author = Bryan Weber
+Version = 0.1
+Description = Create a new announcement post in Markdown
