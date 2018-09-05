@@ -1,0 +1,37 @@
+root: ~/Dropbox/Classes/2018-Fall-ME-2233
+homework:
+  - number: 1
+    due-date: 04-SEP-2018
+  - number: 2
+    due-date: 11-SEP-2018
+quizzes:
+  - due-date: 30-AUG-2018
+    quiz: https://goo.gl/forms/5g9idLhCw7gIyfbw1
+    playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SWOpH6sWIWN3p3WUu0g6g9y
+    handout: true
+  - due-date: 04-SEP-2018
+    quiz: https://goo.gl/forms/l6o1rTMBGja3s6qa2
+    playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SXutQW2jw5TM0CNgcACqwqw
+    handout: true
+  - due-date: 06-SEP-2018
+    quiz: https://goo.gl/forms/vthHgPGCNQP8ckiG3
+    name: Pre-Req Quiz
+  - due-date: 06-SEP-2018
+    quiz: https://goo.gl/forms/U8HX47leq711mh9x2
+    name: First Quiz (ME 2233 Material)
+  - due-date: 06-SEP-2018
+    quiz: https://goo.gl/forms/W0MMlmPT6GQMblR92
+    playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SVxEmIRIdA_dv2nzbJTuQXq
+    handout: true
+course-materials:
+  - source: Moran_conversion_factors.pdf
+  - source: notes.pdf
+  - source: pint-conversions.pdf
+  - source: steam-table-process-overview.pdf
+  - source: steam-table-tutorial.pptx
+  - source: worksheets/ch-1/unit-conversions-soln.pdf
+    dest: unit-conversions-soln.pdf
+  - source: worksheets/ch-1/unit-conversions-soln.zip
+    dest: unit-conversions-soln.zip
+  - source: worksheets/ch-1/unit-conversions.zip
+    dest: unit-conversions.zip
