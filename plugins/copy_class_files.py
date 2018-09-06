@@ -72,7 +72,7 @@ class CopyClassFiles(Task):
 
         for item in kw['course-material']:
             src = kw['root']/item['source']
-            dest = kw['output_folder']/'course-materials'/item.get(dest, item['source'])
+            dest = kw['output_folder']/'course-materials'/item.get('dest', item['source'])
             yield utils.apply_filters({
                 'basename': self.name,
                 'name': str(dest),
