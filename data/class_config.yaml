@@ -35,3 +35,9 @@ course-materials:
     dest: unit-conversions-soln.zip
   - source: worksheets/ch-1/unit-conversions.zip
     dest: unit-conversions.zip
+  - source: worksheets/ch-2/mechanical-power-drag-friction.zip
+    dest: mechanical-power-drag-friction.zip
+  - source: worksheets/ch-2/mechanical-power-drag-friction-soln.zip
+    dest: mechanical-power-drag-friction-soln.zip
+  - source: worksheets/ch-2/mechanical-power-drag-friction-soln.pdf
+    dest: mechanical-power-drag-friction-soln.pdf

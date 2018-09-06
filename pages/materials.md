@@ -2,10 +2,12 @@
 title: Other Course Materials
 slug: materials
 hidetitle: true
+description: Other Course Materials
 ---
 
 # In-Class Examples
 
+- Mechanical Power: Friction &  Drag [ipynb](/course-materials/mechanical-power-drag-friction.zip)
 - Unit Conversions [ipynb](/course-materials/unit-conversions.zip) | [Solution PDF](/course-materials/unit-conversions-soln.pdf) | [Solution ipynb](/course-materials/unit-conversions-soln.zip)
 
 # Other Course Materials
