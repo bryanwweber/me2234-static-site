@@ -2,6 +2,7 @@
 title: ME 2233 Fall 2018
 slug: index
 hidetitle: true
+description: ME 2233 Fall 2018
 ---
 
 # ME 2233 Fall 2018
