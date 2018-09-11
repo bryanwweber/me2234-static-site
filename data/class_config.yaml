@@ -4,6 +4,8 @@ homework:
     due-date: 04-SEP-2018
   - number: 2
     due-date: 11-SEP-2018
+  - number: 3
+    due-date: 18-SEP-2018
 quizzes:
   - due-date: 30-AUG-2018
     quiz: https://goo.gl/forms/5g9idLhCw7gIyfbw1
@@ -26,6 +28,10 @@ quizzes:
   - due-date: 11-SEP-2018
     quiz: https://goo.gl/forms/ZnVdVQu2FKqMJao43
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SU6CQ5FK8s1xNdBNIIytgEX
+    handout: true
+  - due-date: 13-SEP-2018
+    playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SWR0A5ZESgp4DJiKnlglbKm
+    quiz: https://goo.gl/forms/qlIc5KOFe2LUSyok1
     handout: true
 course-materials:
   - source: Moran_conversion_factors.pdf
