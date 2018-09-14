@@ -55,3 +55,9 @@ course-materials:
     dest: mechanical-power-drag-friction-soln.zip
   - source: worksheets/ch-2/mechanical-power-drag-friction-soln.pdf
     dest: mechanical-power-drag-friction-soln.pdf
+  - source: worksheets/ch-2/cycles-examples.pdf
+    dest: cycles-examples.pdf
+  - source: worksheets/ch-2/cycles-examples-soln.pdf
+    dest: cycles-examples-soln.pdf
+  - source: worksheets/ch-2/cycles-examples-soln.zip
+    dest: cycles-examples-soln.zip
