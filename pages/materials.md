@@ -5,6 +5,10 @@ hidetitle: true
 description: Other Course Materials
 ---
 
+# Practice Exams
+
+- Exam 1: [ipynb](/course-materials/exams/exam-1/exam-1-practice.zip) | [Solution ipynb](/course-materials/exams/exam-1/exam-1-practice-soln.zip)
+
 # In-Class Examples
 
 - Piston-Cylinder Example: [ipynb](/course-materials/piston-cylinder-example.zip) | [PDF](/course-materials/piston-cylinder-example.pdf)

@@ -79,3 +79,5 @@ course-materials:
     dest: piston-cylinder-example.zip
   - source: worksheets/ch-3/piston-cylinder-example.pdf
     dest: piston-cylinder-example.pdf
+  - source: exams/exam-1/exam-1-practice.zip
+  - source: exams/exam-1/exam-1-practice-soln.zip
