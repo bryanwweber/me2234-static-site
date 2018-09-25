@@ -77,3 +77,5 @@ course-materials:
     dest: cycles-examples-soln.zip
   - source: worksheets/ch-3/piston-cylinder-example.zip
     dest: piston-cylinder-example.zip
+  - source: worksheets/ch-3/piston-cylinder-example.pdf
+    dest: piston-cylinder-example.pdf
