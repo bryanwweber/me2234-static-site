@@ -52,7 +52,9 @@ class CopyClassFiles(Task):
             dest_dir = kw['output_folder']/f'homework/homework-{hw_num}'
             due_date = datetime.strptime(homework['due-date'], '%d-%b-%Y').replace(hour=12)
             late_date = due_date + timedelta(days=3)
-            if (datetime.today() < late_date or homework.get('no-solution', False)) and not homework.get('force-solution', False):
+            no_solution = homework.get('no-solution', False)
+            force_solution = homework.get('force-solution', False)
+            if (datetime.today() < late_date or no_solution) and not force_solution:
                 ignored = set([f'homework-{hw_num}-soln.zip', f'homework-{hw_num}-soln.pdf'])
             else:
                 ignored = []
