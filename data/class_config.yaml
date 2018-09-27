@@ -8,6 +8,7 @@ homework:
     due-date: 18-SEP-2018
   - number: 4
     due-date: 27-SEP-2018
+    force-solution: true
 quizzes:
   - due-date: 30-AUG-2018
     quiz: https://goo.gl/forms/5g9idLhCw7gIyfbw1
@@ -81,3 +82,6 @@ course-materials:
     dest: piston-cylinder-example.pdf
   - source: exams/exam-1/exam-1-practice.zip
   - source: exams/exam-1/exam-1-practice-soln.zip
+  - source: Appendix-Figures.pdf
+  - source: Appendix-Tables-SI.pdf
+  - source: Appendix-Tables-EE.pdf

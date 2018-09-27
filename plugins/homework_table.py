@@ -46,12 +46,7 @@ class HomeworkTableShortcode(ShortcodePlugin):
             a = etree.SubElement(td, 'a', href=folder + '.zip')
             a.text = 'ipynb'
 
-            late_date = due_date + timedelta(days=3)
-            if datetime.today() < late_date or homework.get('no-solution', False):
-                # Add blank cells if the solution is not to be distributed yet
-                etree.SubElement(row, 'td')
-                etree.SubElement(row, 'td')
-            else:
+            if homework.get('force-solution', False):
                 td = etree.SubElement(row, 'td')
                 a = etree.SubElement(td, 'a', href=folder + '-soln.pdf')
                 a.text = 'PDF'
@@ -59,5 +54,19 @@ class HomeworkTableShortcode(ShortcodePlugin):
                 td = etree.SubElement(row, 'td')
                 a = etree.SubElement(td, 'a', href=folder + '-soln.zip')
                 a.text = 'ipynb'
+            else:
+                late_date = due_date + timedelta(days=3)
+                if datetime.today() < late_date or homework.get('no-solution', False):
+                    # Add blank cells if the solution is not to be distributed yet
+                    etree.SubElement(row, 'td')
+                    etree.SubElement(row, 'td')
+                else:
+                    td = etree.SubElement(row, 'td')
+                    a = etree.SubElement(td, 'a', href=folder + '-soln.pdf')
+                    a.text = 'PDF'
+
+                    td = etree.SubElement(row, 'td')
+                    a = etree.SubElement(td, 'a', href=folder + '-soln.zip')
+                    a.text = 'ipynb'
 
         return tostring(table).decode('utf-8'), ['data/class_config.yaml']
