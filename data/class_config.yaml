@@ -54,6 +54,10 @@ quizzes:
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SVnMIejibGu9T8Aj4sO6LvI
     quiz: https://goo.gl/forms/FC952a0elV3Rku7x1
     handout: true
+  - due-date: 09-OCT-2018
+    playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SXZDdv5kQfWTENNFCsd8jh7
+    quiz: https://goo.gl/forms/D2oR24BTgulZW0hq2
+    handout: true
 course-materials:
   - source: Moran_conversion_factors.pdf
   - source: notes.pdf
