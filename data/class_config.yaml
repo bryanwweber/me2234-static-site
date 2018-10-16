@@ -8,11 +8,12 @@ homework:
     due-date: 18-SEP-2018
   - number: 4
     due-date: 27-SEP-2018
-    force-solution: true
   - number: 5
     due-date: 09-OCT-2018
   - number: 6
     due-date: 16-OCT-2018
+  - number: 7
+    due-date: 23-OCT-2018
 quizzes:
   - due-date: 30-AUG-2018
     quiz: https://goo.gl/forms/5g9idLhCw7gIyfbw1
