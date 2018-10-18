@@ -106,3 +106,7 @@ course-materials:
   - source: Appendix-Figures.pdf
   - source: Appendix-Tables-SI.pdf
   - source: Appendix-Tables-EE.pdf
+  - source: exams/exam-1/output/exam-1-1230-soln.pdf
+    dest: exams/exam-1/exam-1-1230-soln.pdf
+  - source: exams/exam-1/output/exam-1-1400-soln.pdf
+    dest: exams/exam-1/exam-1-1400-soln.pdf

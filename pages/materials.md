@@ -5,6 +5,10 @@ hidetitle: true
 description: Other Course Materials
 ---
 
+# Exam Solutions
+
+- Exam 1: [12:30 PM Section](/course-materials/exams/exam-1/exam-1-1230-soln.pdf) | [2:00 PM Section](/course-materials/exams/exam-1/exam-1-1400-soln.pdf)
+
 # Practice Exams
 
 - Exam 1: [ipynb](/course-materials/exams/exam-1/exam-1-practice.zip) | [Solution ipynb](/course-materials/exams/exam-1/exam-1-practice-soln.zip)
