@@ -7,11 +7,19 @@ DOIT_CONFIG = {
 }
 
 
+def task_git_pull():
+    """Pull changes from upstream before building."""
+    return {
+        'actions': ['git pull'],
+    }
+
+
 def task_build_site():
     """Build the site using Nikola."""
     return {
         'actions': ['nikola build'],
         'targets': [this_dir/'output'],
+        'task_dep': ['git_pull'],
     }
 
 
