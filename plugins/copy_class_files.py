@@ -60,7 +60,7 @@ class CopyClassFiles(Task):
                 ignored = []
 
             for file in src.iterdir():
-                if file.name in ignored:
+                if file.name in ignored or file.name == '.DS_Store':
                     continue
                 real_dest = dest_dir/file.name
                 yield utils.apply_filters({
