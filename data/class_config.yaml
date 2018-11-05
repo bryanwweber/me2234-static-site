@@ -122,3 +122,5 @@ course-materials:
     dest: exams/exam-1/exam-1-1230-soln.pdf
   - source: exams/exam-1/output/exam-1-1400-soln.pdf
     dest: exams/exam-1/exam-1-1400-soln.pdf
+  - source: lectures/chapter-6/entropy-production-example.pdf
+    dest: worksheets/ch-6/entropy-production-example.pdf
