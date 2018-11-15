@@ -18,6 +18,8 @@ homework:
     due-date: 30-OCT-2018
   - number: 9
     due-date: 06-NOV-2018
+  - number: 10
+    due-date: 27-NOV-2018
 quizzes:
   - due-date: 30-AUG-2018
     quiz: https://goo.gl/forms/5g9idLhCw7gIyfbw1
