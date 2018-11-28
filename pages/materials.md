@@ -15,6 +15,7 @@ description: Other Course Materials
 
 # In-Class Examples
 
+- Atkinson Cycle Example: [PDF](/course-materials/worksheets/ch-6/atkinson-cycle.pdf)
 - Entropy Production Example: [PDF](/course-materials/worksheets/ch-6/entropy-production-example.pdf)
 - Piston-Cylinder Example: [ipynb](/course-materials/piston-cylinder-example.zip) | [PDF](/course-materials/piston-cylinder-example.pdf)
 - Cycles Examples: [PDF](/course-materials/cycles-examples.pdf) | [Solution PDF](/course-materials/cycles-examples-soln.pdf) | [Solution ipynb](/course-materials/cycles-examples-soln.zip)

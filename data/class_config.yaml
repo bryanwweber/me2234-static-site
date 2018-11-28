@@ -132,3 +132,4 @@ course-materials:
     dest: exams/exam-1/exam-1-1400-soln.pdf
   - source: lectures/chapter-6/entropy-production-example.pdf
     dest: worksheets/ch-6/entropy-production-example.pdf
+  - source: worksheets/ch-6/atkinson-cycle.pdf
