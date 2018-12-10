@@ -30,8 +30,11 @@ class QuizTableShortcode(ShortcodePlugin):
             td.text = datetime.strptime(quiz['due-date'], '%d-%b-%Y').strftime("%b. %d, %Y")
 
             td = etree.SubElement(row, 'td')
-            a = etree.SubElement(td, 'a', href=quiz['quiz'])
-            a.text = quiz.get('name', False) or 'Link'
+            if quiz.get('quiz') is not None:
+                a = etree.SubElement(td, 'a', href=quiz['quiz'])
+                a.text = quiz.get('name', False) or 'Link'
+            else:
+                td.text = quiz.get('name', False) or 'N/A'
 
             td = etree.SubElement(row, 'td')
             if quiz.get('playlist') is not None:
