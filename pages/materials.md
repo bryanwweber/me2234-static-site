@@ -5,9 +5,15 @@ hidetitle: true
 description: Other Course Materials
 ---
 
+# Post-Quiz Solutions
+
+- 12:30 PM Section: [PDF](/course-materials/quizzes/post-quiz/post-quiz-1230-soln.pdf)
+- 2:00 PM Section: [PDF](/course-materials/quizzes/post-quiz/post-quiz-1400-soln.pdf)
+
 # Exam Solutions
 
 - Exam 1: [12:30 PM Section](/course-materials/exams/exam-1/exam-1-1230-soln.pdf) | [2:00 PM Section](/course-materials/exams/exam-1/exam-1-1400-soln.pdf)
+- Exam 2: [12:30 PM PDF](/course-materials/exams/exam-2/exam-2-1230-soln.pdf) | [12:30 PM ipynb](/course-materials/exams/exam-2/exam-2-1230-soln.zip) | [2:00 PM PDF](/course-materials/exams/exam-2/exam-2-1400-soln.pdf) | [2:00 PM ipynb](/course-materials/exams/exam-2/exam-2-1400-soln.zip)
 
 # Practice Exams
 
@@ -15,7 +21,10 @@ description: Other Course Materials
 
 # In-Class Examples
 
-- Atkinson Cycle Example: [PDF](/course-materials/worksheets/ch-6/atkinson-cycle.pdf)
+- Water/Entropy Production Example: [PDF](/course-materials/worksheets/ch-6/water_entropy_production_soln.pdf)
+- Turbine Efficiency Example: [PDF](/course-materials/worksheets/ch-6/turbine-efficiency-soln.pdf)
+- CO2 Entropy Balance Example: [PDF](/course-materials/worksheets/ch-6/co2_entropy_balance_soln.pdf)
+- Atkinson Cycle Example: [PDF](/course-materials/worksheets/ch-6/atkinson-cycle-soln.pdf)
 - Entropy Production Example: [PDF](/course-materials/worksheets/ch-6/entropy-production-example.pdf)
 - Piston-Cylinder Example: [ipynb](/course-materials/piston-cylinder-example.zip) | [PDF](/course-materials/piston-cylinder-example.pdf)
 - Cycles Examples: [PDF](/course-materials/cycles-examples.pdf) | [Solution PDF](/course-materials/cycles-examples-soln.pdf) | [Solution ipynb](/course-materials/cycles-examples-soln.zip)

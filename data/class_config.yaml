@@ -139,4 +139,17 @@ course-materials:
     dest: exams/exam-1/exam-1-1400-soln.pdf
   - source: lectures/chapter-6/entropy-production-example.pdf
     dest: worksheets/ch-6/entropy-production-example.pdf
-  - source: worksheets/ch-6/atkinson-cycle.pdf
+  - source: worksheets/ch-6/atkinson-cycle-soln.pdf
+  - source: worksheets/ch-6/water_entropy_production_soln.pdf
+  - source: worksheets/ch-6/turbine-efficiency-soln.pdf
+  - source: worksheets/ch-6/co2_entropy_balance_soln.pdf
+  - source: exams/exam-2/output/exam-2-1400-soln.pdf
+    dest: exams/exam-2/exam-2-1400-soln.pdf
+  - source: exams/exam-2/output/exam-2-1400-soln.zip
+    dest: exams/exam-2/exam-2-1400-soln.zip
+  - source: exams/exam-2/output/exam-2-1230-soln.zip
+    dest: exams/exam-2/exam-2-1230-soln.zip
+  - source: exams/exam-2/output/exam-2-1230-soln.pdf
+    dest: exams/exam-2/exam-2-1230-soln.pdf
+  - source: quizzes/post-quiz/post-quiz-1230-soln.pdf
+  - source: quizzes/post-quiz/post-quiz-1400-soln.pdf
