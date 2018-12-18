@@ -14,6 +14,7 @@ description: Other Course Materials
 
 - Exam 1: [12:30 PM Section](/course-materials/exams/exam-1/exam-1-1230-soln.pdf) | [2:00 PM Section](/course-materials/exams/exam-1/exam-1-1400-soln.pdf)
 - Exam 2: [12:30 PM PDF](/course-materials/exams/exam-2/exam-2-1230-soln.pdf) | [12:30 PM ipynb](/course-materials/exams/exam-2/exam-2-1230-soln.zip) | [2:00 PM PDF](/course-materials/exams/exam-2/exam-2-1400-soln.pdf) | [2:00 PM ipynb](/course-materials/exams/exam-2/exam-2-1400-soln.zip)
+- Final Exam: [12:30 PM PDF](/course-materials/exams/final-exam/final-exam-1230-soln.pdf) | [2:00 PM PDF](/course-materials/exams/final-exam/final-exam-1400-soln.pdf)
 
 # Practice Exams
 

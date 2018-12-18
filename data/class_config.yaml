@@ -153,3 +153,5 @@ course-materials:
     dest: exams/exam-2/exam-2-1230-soln.pdf
   - source: quizzes/post-quiz/post-quiz-1230-soln.pdf
   - source: quizzes/post-quiz/post-quiz-1400-soln.pdf
+  - source: exams/final-exam/final-exam-1230-soln.pdf
+  - source: exams/final-exam/final-exam-1400-soln.pdf
