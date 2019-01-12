@@ -33,6 +33,7 @@ class CopyClassFiles(Task):
                 'targets': [real_dest],
                 'actions': [(utils.copy_file, (handout_file, real_dest))],
                 'uptodate': [utils.config_changed(kw, self.name)],
+                'clean': True,
             }, filters)
 
         syllabus_file = kw['root']/'syllabus/syllabus.pdf'
@@ -44,6 +45,7 @@ class CopyClassFiles(Task):
             'targets': [real_dest],
             'actions': [(utils.copy_file, (syllabus_file, real_dest))],
             'uptodate': [utils.config_changed(kw, self.name)],
+            'clean': True,
         }, filters)
 
         for homework in kw['homework']:
@@ -70,6 +72,7 @@ class CopyClassFiles(Task):
                     'targets': [real_dest],
                     'actions': [(utils.copy_file, (hw_file, real_dest))],
                     'uptodate': [utils.config_changed(kw, self.name)],
+                    'clean': True,
                 }, filters)
 
         for item in kw['course-material']:
@@ -82,4 +85,5 @@ class CopyClassFiles(Task):
                 'targets': [dest],
                 'actions': [(utils.copy_file, (src, dest))],
                 'uptodate': [utils.config_changed(kw, self.name)],
+                'clean': True,
             }, filters)
