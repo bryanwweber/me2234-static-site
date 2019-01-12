@@ -12,7 +12,7 @@ class CopyClassFiles(Task):
     def gen_tasks(self):
         kw = {
             'root': Path(self.site.GLOBAL_CONTEXT['data']['class_config']['root']).expanduser(),
-            'homework': self.site.GLOBAL_CONTEXT['data']['class_config']['homework'],
+            'homework': self.site.GLOBAL_CONTEXT['data']['class_config'].get('homework', []),
             'quizzes': self.site.GLOBAL_CONTEXT['data']['class_config']['quizzes'],
             'course-material': self.site.GLOBAL_CONTEXT['data']['class_config']['course-materials'],
             'output_folder': Path(self.site.config['OUTPUT_FOLDER']),

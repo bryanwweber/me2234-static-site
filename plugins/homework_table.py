@@ -21,7 +21,7 @@ class HomeworkTableShortcode(ShortcodePlugin):
         for text in ['Assignment', 'Solution']:
             elem = etree.SubElement(thead_row, 'th', colspan='2')
             elem.text = text
-        homeworks = sorted(class_config['homework'],
+        homeworks = sorted(class_config.get('homework', []),
                            key=lambda x: datetime.strptime(x['due-date'], '%d-%b-%Y'),
                            reverse=True)
 
