@@ -59,16 +59,16 @@ class CopyClassFiles(Task):
             else:
                 ignored = []
 
-            for file in src.iterdir():
-                if file.name in ignored or file.name == '.DS_Store':
+            for hw_file in src.iterdir():
+                if hw_file.name in ignored or hw_file.name == '.DS_Store':
                     continue
-                real_dest = dest_dir/file.name
+                real_dest = dest_dir/hw_file.name
                 yield utils.apply_filters({
                     'basename': self.name,
                     'name': str(real_dest),
-                    'file_dep': [file],
+                    'file_dep': [hw_file],
                     'targets': [real_dest],
-                    'actions': [(utils.copy_file, (file, real_dest))],
+                    'actions': [(utils.copy_file, (hw_file, real_dest))],
                     'uptodate': [utils.config_changed(kw, self.name)],
                 }, filters)
 
