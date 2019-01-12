@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2018-09-03 08:21:48 UTC-04:00
+date: 2018-01-12 04:21:48 UTC-04:00
 description: Instructions to Download Homework
 link: ''
 slug: instructions-to-download-homework
