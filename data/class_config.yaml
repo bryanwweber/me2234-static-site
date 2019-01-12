@@ -7,7 +7,7 @@ quizzes:
 course-materials:
   - source: Moran_conversion_factors.pdf
   - source: papers/notes.pdf
-    destination: notes.pdf
+    dest: notes.pdf
   - source: pint-conversions.pdf
   - source: steam-table-process-overview.pdf
   - source: steam-table-tutorial.pptx
