@@ -3,7 +3,11 @@ root: ~/Dropbox/Classes/2019-Spring-ME-2234
 quizzes:
   - due-date: 15-DEC-2018
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SXsKxFb6ug0ThMNpqJST5_X
-    name: Playlist with all lecture videos
+    name: Playlist with all ME 2233 lecture videos
+  - due-date: 29-JAN-2019
+    playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SVUHWADDcHD0U_KgWKZO4Bf
+    quiz: https://goo.gl/forms/4OUbEkIKjBBXwLn42
+    handout: true
 course-materials:
   - source: Moran_conversion_factors.pdf
   - source: papers/notes.pdf
