@@ -137,6 +137,7 @@ NAVIGATION_LINKS = {
         ("/homework.html", "Homework"),
         ("/lectures.html", "Lectures & Quizzes"),
         ("/syllabus.html", "Syllabus"),
+        ("/calendar.html", "Course Calendar"),
         ("/materials.html", "Course Materials"),
         ("https://me2233.uconn.edu", "Jupyter"),
         ("https://gradescope.com", "Gradescope"),
