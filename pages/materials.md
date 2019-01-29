@@ -5,6 +5,10 @@ hidetitle: true
 description: Other Course Materials
 ---
 
+# Examples
+
+- [Jan. 29 Example](/course-materials/homework-4-7.zip)
+
 # Other Course Materials
 
 - [Powers Lecture Notes on Thermodynamics](/course-materials/notes.pdf)
