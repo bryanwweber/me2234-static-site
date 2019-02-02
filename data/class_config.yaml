@@ -26,3 +26,5 @@ course-materials:
   - source: Appendix-Tables-EE.pdf
   - source: ipython-notebooks/homework-4-7.zip
     dest: homework-4-7.zip
+  - source: ipython-notebooks/homework-4-7-soln.zip
+    dest: homework-4-7-soln.zip

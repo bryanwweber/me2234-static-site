@@ -7,7 +7,7 @@ description: Other Course Materials
 
 # Examples
 
-- [Jan. 29 Example](/course-materials/homework-4-7.zip)
+- [Jan. 29 Example](/course-materials/homework-4-7.zip) | [Jan. 29 Example Solution](/course-materials/homework-4-7-soln.zip)
 
 # Other Course Materials
 
