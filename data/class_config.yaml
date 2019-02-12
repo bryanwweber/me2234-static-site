@@ -38,3 +38,7 @@ course-materials:
     dest: homework-4-7.zip
   - source: ipython-notebooks/homework-4-7-soln.zip
     dest: homework-4-7-soln.zip
+  - source: ipython-notebooks/multiple-feedwater-heater-example.zip
+    dest: multiple-feedwater-heater-example.zip
+  - source: ipython-notebooks/multiple-feedwater-heater-example.pdf
+    dest: multiple-feedwater-heater-example.pdf
