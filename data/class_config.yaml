@@ -4,6 +4,8 @@ homework:
     due-date: 07-FEB-2019
   - number: 2
     due-date: 14-FEB-2019
+  - number: 3
+    due-date: 21-FEB-2019
 quizzes:
   - due-date: 15-DEC-2018
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SXsKxFb6ug0ThMNpqJST5_X
