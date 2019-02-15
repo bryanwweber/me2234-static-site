@@ -15,7 +15,7 @@ class QuizTableShortcode(ShortcodePlugin):
         table = etree.Element('table', attrib={'class': 'table table-striped'})
         thead = etree.SubElement(table, 'thead')
         thead_row = etree.SubElement(thead, 'tr')
-        for text in ['Due Date', 'Quiz', 'Playlist', 'Slides']:
+        for text in ['Due Date', 'Quiz', 'Playlist', 'Slides', 'Solutions']:
             elem = etree.SubElement(thead_row, 'th')
             elem.text = text
         quizzes = sorted(class_config['quizzes'],
@@ -27,7 +27,8 @@ class QuizTableShortcode(ShortcodePlugin):
             row = etree.SubElement(body, 'tr')
 
             td = etree.SubElement(row, 'td')
-            td.text = datetime.strptime(quiz['due-date'], '%d-%b-%Y').strftime("%b. %d, %Y")
+            due_date = datetime.strptime(quiz['due-date'], '%d-%b-%Y').replace(hour=12)
+            td.text = due_date.strftime("%b. %d, %Y")
 
             td = etree.SubElement(row, 'td')
             if quiz.get('quiz') is not None:
@@ -49,5 +50,10 @@ class QuizTableShortcode(ShortcodePlugin):
                 a.text = 'Link'
             else:
                 td.text = 'N/A'
+
+            td = etree.SubElement(row, 'td')
+            if datetime.today() > due_date and not quiz.get("no_solution", False):
+                a = etree.SubElement(td, 'a', href=f'/quiz-solutions/{due_date.strftime("%b. %-d, %Y")} Lectures.pdf')
+                a.text = "Link"
 
         return tostring(table).decode('utf-8'), ['data/class_config.yaml']

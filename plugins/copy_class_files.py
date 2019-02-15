@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 
 from nikola.plugin_categories import Task
 from nikola import utils
+import pypandoc as ppd
 
 
 class CopyClassFiles(Task):
@@ -73,6 +74,35 @@ class CopyClassFiles(Task):
                     'actions': [(utils.copy_file, (hw_file, real_dest))],
                     'uptodate': [utils.config_changed(kw, self.name)],
                     'clean': True,
+                }, filters)
+
+        for quiz in kw["quizzes"]:
+            src = kw["root"]/"quizzes"/"online"
+            due_date = datetime.strptime(quiz['due-date'], '%d-%b-%Y').replace(hour=12)
+            file_stem = src.joinpath(due_date.strftime("%b. %-d, %Y"))
+            file_name = file_stem.with_suffix(file_stem.suffix + " Lectures.md")
+            if quiz.get("no_solution", False) or not file_name.exists():
+                continue
+            output_file = file_stem.with_suffix(file_stem.suffix + " Lectures.pdf")
+            yield {
+                "basename": self.name,
+                "name": file_name.name,
+                "file_dep": [file_name],
+                "targets": [output_file],
+                "actions": [(ppd.convert_file, (str(file_name), "latex"), {"format": "markdown", "outputfile": str(output_file), "extra_args": ["-V", "geometry:margin=1in", '--pdf-engine=lualatex']})],
+                "uptodate": [utils.config_changed(kw, self.name)],
+                "clean": True,
+            }
+            real_dest = kw["output_folder"]/"quiz-solutions"/output_file.name
+            if datetime.today() > due_date:
+                yield utils.apply_filters({
+                    "basename": self.name,
+                    "name": real_dest.name,
+                    "file_dep": [output_file],
+                    "targets": [real_dest],
+                    "actions": [(utils.copy_file, (output_file, real_dest))],
+                    "uptodate": [utils.config_changed(kw, self.name)],
+                    "clean": True,
                 }, filters)
 
         for item in kw['course-material']:
