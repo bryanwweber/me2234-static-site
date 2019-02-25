@@ -45,3 +45,7 @@ course-materials:
     dest: multiple-feedwater-heater-example.zip
   - source: ipython-notebooks/multiple-feedwater-heater-example.pdf
     dest: multiple-feedwater-heater-example.pdf
+  - source: exams/exam-1/output/exam-1-problem.zip
+    dest: exams/exam-1/exam-1-problem.zip
+  - source: exams/exam-1/output/exam-1-problem.pdf
+    dest: exams/exam-1/exam-1-problem.pdf

@@ -5,6 +5,10 @@ hidetitle: true
 description: Other Course Materials
 ---
 
+# Exams
+
+- Exam 1 Take-Home Problem [ipynb](/course-materials/exams/exam-1/exam-1-problem.zip) | [PDF](/course-materials/exams/exam-1/exam-1-problem.pdf)
+
 # Examples
 
 - Multiple Feedwater Heater Lecture Example [ipynb](/course-materials/multiple-feedwater-heater-example.zip) | [PDF](/course-materials/multiple-feedwater-heater-example.pdf)
