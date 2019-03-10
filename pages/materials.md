@@ -11,6 +11,8 @@ description: Other Course Materials
 
 # Examples
 
+- Isentropic Efficiency Brayton Cycle Example [Assignment](/course-materials/worksheets/ch-9/isen-eff-brayton-cycle.pdf) | [Solution](/course-materials/worksheets/ch-9/isen-eff-brayton-cycle-soln.pdf)
+- Basic Brayton Cycle Example [Assignment](/course-materials/worksheets/ch-9/basic-brayton-cycle.pdf) | [Solution](/course-materials/worksheets/ch-9/basic-brayton-cycle-soln.pdf)
 - Multiple Feedwater Heater Lecture Example [ipynb](/course-materials/multiple-feedwater-heater-example.zip) | [PDF](/course-materials/multiple-feedwater-heater-example.pdf)
 - [Jan. 29 Example](/course-materials/homework-4-7.zip) | [Jan. 29 Example Solution](/course-materials/homework-4-7-soln.zip)
 
