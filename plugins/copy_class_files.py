@@ -84,15 +84,16 @@ class CopyClassFiles(Task):
             if quiz.get("no_solution", False) or not file_name.exists():
                 continue
             output_file = file_stem.with_suffix(file_stem.suffix + " Lectures.pdf")
-            yield {
-                "basename": self.name,
-                "name": file_name.name,
-                "file_dep": [file_name],
-                "targets": [output_file],
-                "actions": [(ppd.convert_file, (str(file_name), "latex"), {"format": "markdown", "outputfile": str(output_file), "extra_args": ["-V", "geometry:margin=1in", '--pdf-engine=lualatex']})],
-                "uptodate": [utils.config_changed(kw, self.name)],
-                "clean": True,
-            }
+            if not output_file.exists():
+                yield {
+                    "basename": self.name,
+                    "name": file_name.name,
+                    "file_dep": [file_name],
+                    "targets": [output_file],
+                    "actions": [(ppd.convert_file, (str(file_name), "latex"), {"format": "markdown", "outputfile": str(output_file), "extra_args": ["-V", "geometry:margin=1in", '--pdf-engine=lualatex']})],
+                    "uptodate": [utils.config_changed(kw, self.name)],
+                    "clean": True,
+                }
             real_dest = kw["output_folder"]/"quiz-solutions"/output_file.name
             if datetime.today() > due_date:
                 yield utils.apply_filters({
