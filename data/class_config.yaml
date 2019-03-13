@@ -61,7 +61,12 @@ course-materials:
     dest: exams/exam-1/exam-1-problem.zip
   - source: exams/exam-1/output/exam-1-problem.pdf
     dest: exams/exam-1/exam-1-problem.pdf
-  - source: worksheets/ch-9/basic-brayton-cycle.pdf
+  - source: exams/exam-1/output/exam-1-problem-soln.pdf
+    dest: exams/exam-1/exam-1-problem-soln.pdf
+  - source: exams/exam-1/output/exam-1-problem-soln.zip
+    dest: exams/exam-1/exam-1-problem-soln.zip
+  - source: exams/exam-1/exam-1-sa-soln.pdf
+    dest: exams/exam-1/exam-1-sa-soln.pdf
   - source: worksheets/ch-9/basic-brayton-cycle-soln.pdf
-  - source: worksheets/ch-9/isen-eff-brayton-cycle.pdf
   - source: worksheets/ch-9/isen-eff-brayton-cycle-soln.pdf
+  - source: worksheets/ch-9/irere-brayton-cycle-soln.pdf

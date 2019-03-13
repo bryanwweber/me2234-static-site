@@ -7,12 +7,15 @@ description: Other Course Materials
 
 # Exams
 
+- Exam 1 In-Class Solution [PDF](/course-materials/exams/exam-1/exam-1-sa-soln.pdf)
+- Exam 1 Take-Home Problem Solution [ipynb](/course-materials/exams/exam-1/exam-1-problem-soln.zip) | [PDF](/course-materials/exams/exam-1/exam-1-problem-soln.pdf)
 - Exam 1 Take-Home Problem [ipynb](/course-materials/exams/exam-1/exam-1-problem.zip) | [PDF](/course-materials/exams/exam-1/exam-1-problem.pdf)
 
 # Examples
 
-- Isentropic Efficiency Brayton Cycle Example [Assignment](/course-materials/worksheets/ch-9/isen-eff-brayton-cycle.pdf) | [Solution](/course-materials/worksheets/ch-9/isen-eff-brayton-cycle-soln.pdf)
-- Basic Brayton Cycle Example [Assignment](/course-materials/worksheets/ch-9/basic-brayton-cycle.pdf) | [Solution](/course-materials/worksheets/ch-9/basic-brayton-cycle-soln.pdf)
+- Intercooler, Regenerator, Reheat Brayton Cycle Example [Solution](/course-materials/worksheets/ch-9/irere-brayton-cycle-soln.pdf)
+- Isentropic Efficiency Brayton Cycle Example [Solution](/course-materials/worksheets/ch-9/isen-eff-brayton-cycle-soln.pdf)
+- Basic Brayton Cycle Example [Solution](/course-materials/worksheets/ch-9/basic-brayton-cycle-soln.pdf)
 - Multiple Feedwater Heater Lecture Example [ipynb](/course-materials/multiple-feedwater-heater-example.zip) | [PDF](/course-materials/multiple-feedwater-heater-example.pdf)
 - [Jan. 29 Example](/course-materials/homework-4-7.zip) | [Jan. 29 Example Solution](/course-materials/homework-4-7-soln.zip)
 
