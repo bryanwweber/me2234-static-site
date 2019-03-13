@@ -43,7 +43,7 @@ def deploy_site():
                     continue
                 file_name = str(f.relative_to(this_dir / "output"))
                 local_hash = local_cache[file_name]
-                remote_hash = remote_cache[file_name]
+                remote_hash = remote_cache.get(file_name, "")
                 if local_hash != remote_hash:
                     sftp.put(str(f), str(remote_path / file_name))
             sftp.put(str(cache_path), str(remote_path / "filecache.json"))
