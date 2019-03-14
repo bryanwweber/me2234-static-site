@@ -90,7 +90,7 @@ class CopyClassFiles(Task):
                     "name": file_name.name,
                     "file_dep": [file_name],
                     "targets": [output_file],
-                    "actions": [(ppd.convert_file, (str(file_name), "latex"), {"format": "markdown", "outputfile": str(output_file), "extra_args": ["-V", "geometry:margin=1in", '--pdf-engine=lualatex']})],
+                    "actions": [(ppd.convert_file, (str(file_name), "latex"), {"format": "markdown", "outputfile": str(output_file), "extra_args": ["-V", "geometry:margin=1in"]})],
                     "uptodate": [utils.config_changed(kw, self.name)],
                     "clean": True,
                 }
