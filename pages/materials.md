@@ -11,8 +11,14 @@ description: Other Course Materials
 - Exam 1 Take-Home Problem Solution [ipynb](/course-materials/exams/exam-1/exam-1-problem-soln.zip) | [PDF](/course-materials/exams/exam-1/exam-1-problem-soln.pdf)
 - Exam 1 Take-Home Problem [ipynb](/course-materials/exams/exam-1/exam-1-problem.zip) | [PDF](/course-materials/exams/exam-1/exam-1-problem.pdf)
 
+# Projects
+
+- Project Rubric [PDF](/course-materials/projects/project-rubric.pdf)
+- Project 1 Options [PDF](/course-materials/projects/project-1.pdf)
+
 # Examples
 
+- Two-Stroke Engine Cycle [ipynb](/course-materials/worksheets/ch-9/two-stroke-cycle-example-soln.zip) | [PDF](/course-materials/worksheets/ch-9/two-stroke-cycle-example-soln.pdf)
 - Intercooler, Regenerator, Reheat Brayton Cycle Example [Solution](/course-materials/worksheets/ch-9/irere-brayton-cycle-soln.pdf)
 - Isentropic Efficiency Brayton Cycle Example [Solution](/course-materials/worksheets/ch-9/isen-eff-brayton-cycle-soln.pdf)
 - Basic Brayton Cycle Example [Solution](/course-materials/worksheets/ch-9/basic-brayton-cycle-soln.pdf)

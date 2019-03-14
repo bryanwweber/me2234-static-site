@@ -10,6 +10,8 @@ homework:
     due-date: 07-MAR-2019
   - number: 5
     due-date: 14-MAR-2019
+  - number: 6
+    due-date: 04-APR-2019
 quizzes:
   - due-date: 15-DEC-2018
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SXsKxFb6ug0ThMNpqJST5_X
@@ -38,6 +40,10 @@ quizzes:
   - due-date: 12-MAR-2019
     quiz: https://goo.gl/forms/wfGZpzMI8q02Wv9y2
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SUeshKERwMrzFsCuHsfYxkK
+    handout: true
+  - due-date: 26-MAR-2019
+    quiz: https://goo.gl/forms/FkMps3KoQYGlJw3G3
+    playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SUXxHfyMtNG0I0X9XMvP8SP
     handout: true
 course-materials:
   - source: Moran_conversion_factors.pdf
@@ -70,3 +76,11 @@ course-materials:
   - source: worksheets/ch-9/basic-brayton-cycle-soln.pdf
   - source: worksheets/ch-9/isen-eff-brayton-cycle-soln.pdf
   - source: worksheets/ch-9/irere-brayton-cycle-soln.pdf
+  - source: ipython-notebooks/two-stroke-cycle-example-soln.zip
+    dest: worksheets/ch-9/two-stroke-cycle-example-soln.zip
+  - source: ipython-notebooks/two-stroke-cycle-example-soln.pdf
+    dest: worksheets/ch-9/two-stroke-cycle-example-soln.pdf
+  - source: projects/project-1/project-1.pdf
+    dest: projects/project-1.pdf
+  - source: projects/project-rubric/project-rubric.pdf
+    dest: projects/project-rubric.pdf
