@@ -12,6 +12,8 @@ homework:
     due-date: 14-MAR-2019
   - number: 6
     due-date: 04-APR-2019
+  - number: 7
+    due-date: 11-APR-2019
 quizzes:
   - due-date: 15-DEC-2018
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SXsKxFb6ug0ThMNpqJST5_X
@@ -48,6 +50,10 @@ quizzes:
   - due-date: 02-APR-2019
     quiz: https://forms.gle/2iaJBvY9tC52P3e87
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SVEb9FPkUVfMWotZurhw_mY
+    handout: true
+  - due-date: 09-APR-2019
+    quiz: https://forms.gle/TQX8Q3GVBSyC79yw7
+    playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SV7IZkjeGTA2Mg0N3vfQzqU
     handout: true
 course-materials:
   - source: Moran_conversion_factors.pdf
