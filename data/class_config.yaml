@@ -94,3 +94,4 @@ course-materials:
     dest: projects/project-1.pdf
   - source: projects/project-rubric/project-rubric.pdf
     dest: projects/project-rubric.pdf
+  - source: worksheets/ch-9/dual-cycle-soln.pdf

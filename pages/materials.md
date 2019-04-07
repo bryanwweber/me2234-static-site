@@ -18,6 +18,7 @@ description: Other Course Materials
 
 # Examples
 
+- Dual Cycle Example [Solution](/course-materials/worksheets/ch-9/dual-cycle-soln.pdf)
 - Two-Stroke Engine Cycle [ipynb](/course-materials/worksheets/ch-9/two-stroke-cycle-example-soln.zip) | [PDF](/course-materials/worksheets/ch-9/two-stroke-cycle-example-soln.pdf)
 - Intercooler, Regenerator, Reheat Brayton Cycle Example [Solution](/course-materials/worksheets/ch-9/irere-brayton-cycle-soln.pdf)
 - Isentropic Efficiency Brayton Cycle Example [Solution](/course-materials/worksheets/ch-9/isen-eff-brayton-cycle-soln.pdf)
