@@ -14,6 +14,8 @@ homework:
     due-date: 04-APR-2019
   - number: 7
     due-date: 11-APR-2019
+  - number: 8
+    due-date: 02-MAY-2019
 quizzes:
   - due-date: 15-DEC-2018
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SXsKxFb6ug0ThMNpqJST5_X
@@ -55,6 +57,10 @@ quizzes:
     quiz: https://forms.gle/TQX8Q3GVBSyC79yw7
     playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SV7IZkjeGTA2Mg0N3vfQzqU
     handout: true
+  - due-date: 09-MAY-2019
+    quiz: https://forms.gle/jDJ6o2KqYDRNKzAT7
+    playlist: https://www.youtube.com/playlist?list=PLnOxmF4n89SUwQn_RooO68-wFoSHRLfZh
+    handout: true
 course-materials:
   - source: Moran_conversion_factors.pdf
   - source: papers/notes.pdf
@@ -95,3 +101,16 @@ course-materials:
   - source: projects/project-rubric/project-rubric.pdf
     dest: projects/project-rubric.pdf
   - source: worksheets/ch-9/dual-cycle-soln.pdf
+  - source: exams/exam-2/output/exam-2-problem.zip
+    dest: exams/exam-2/exam-2-problem.zip
+  - source: exams/exam-2/output/exam-2-problem.pdf
+    dest: exams/exam-2/exam-2-problem.pdf
+  - source: projects/project-2/project-2.pdf
+    dest: projects/project-2.pdf
+  - source: worksheets/ch-12/prob_12-46-solns.pdf
+  - source: exams/exam-2/output/exam-2-problem-soln.pdf
+    dest: exams/exam-2/exam-2-problem-soln.pdf
+  - source: exams/exam-2/output/exam-2-problem-soln.zip
+    dest: exams/exam-2/exam-2-problem-soln.zip
+  - source: exams/exam-2/exam-2-sa-soln.pdf
+    dest: exams/exam-2/exam-2-sa-soln.pdf

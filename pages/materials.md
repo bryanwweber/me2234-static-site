@@ -7,6 +7,10 @@ description: Other Course Materials
 
 # Exams
 
+- Exam 2 In-Class Solution [PDF](/course-materials/exams/exam-2/exam-2-sa-soln.pdf)
+- Exam 2 Take-Home Problem Solution [ipynb](/course-materials/exams/exam-2/exam-2-problem-soln.zip) | [PDF](/course-materials/exams/exam-2/exam-2-problem-soln.pdf)
+- Exam 2 Take-Home Problem [ipynb](/course-materials/exams/exam-2/exam-2-problem.zip) | [PDF](/course-materials/exams/exam-2/exam-2-problem.pdf)
+
 - Exam 1 In-Class Solution [PDF](/course-materials/exams/exam-1/exam-1-sa-soln.pdf)
 - Exam 1 Take-Home Problem Solution [ipynb](/course-materials/exams/exam-1/exam-1-problem-soln.zip) | [PDF](/course-materials/exams/exam-1/exam-1-problem-soln.pdf)
 - Exam 1 Take-Home Problem [ipynb](/course-materials/exams/exam-1/exam-1-problem.zip) | [PDF](/course-materials/exams/exam-1/exam-1-problem.pdf)
@@ -15,9 +19,11 @@ description: Other Course Materials
 
 - Project Rubric [PDF](/course-materials/projects/project-rubric.pdf)
 - Project 1 Options [PDF](/course-materials/projects/project-1.pdf)
+- Project 2 Options [PDF](/course-materials/projects/project-2.pdf)
 
 # Examples
 
+- Psychrometry Examples [Solution](/course-materials/worksheets/ch-12/prob_12-46-solns.pdf)
 - Dual Cycle Example [Solution](/course-materials/worksheets/ch-9/dual-cycle-soln.pdf)
 - Two-Stroke Engine Cycle [ipynb](/course-materials/worksheets/ch-9/two-stroke-cycle-example-soln.zip) | [PDF](/course-materials/worksheets/ch-9/two-stroke-cycle-example-soln.pdf)
 - Intercooler, Regenerator, Reheat Brayton Cycle Example [Solution](/course-materials/worksheets/ch-9/irere-brayton-cycle-soln.pdf)
